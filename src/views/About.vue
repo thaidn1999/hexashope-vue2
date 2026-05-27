@@ -16,7 +16,15 @@ import AboutUs from "../components/about/AboutUs.vue";
 import FormAddress from "../components/home/FormAddress.vue";
 export default {
   components: { AboutBanner, AboutUs, AboutProduct, AboutService, FormAddress },
+  mounted() {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  },
 };
 </script>
 
-<style></style>
+<style>
+#about {
+  scroll-behavior: smooth;
+  top: 0;
+}
+</style>

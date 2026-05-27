@@ -80,6 +80,7 @@ export default {};
 
 <style scoped>
 #explore {
+  scroll-margin-top: 100px;
   border-bottom: 3px dotted #eee;
 }
 .col-lg-6 {

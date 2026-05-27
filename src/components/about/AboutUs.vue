@@ -61,6 +61,7 @@ export default {};
 
 <style scoped>
 .about-us {
+  scroll-margin-top: 100px;
   border-bottom: 3px dotted #eee;
 }
 .about-right {

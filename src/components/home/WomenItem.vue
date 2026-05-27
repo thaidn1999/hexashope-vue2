@@ -172,4 +172,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#women {
+  scroll-margin-top: 100px;
+}
+</style>
